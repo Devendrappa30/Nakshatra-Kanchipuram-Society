@@ -1,1 +1,1 @@
-# test
+Upload this folder contents to GitHub Pages.
