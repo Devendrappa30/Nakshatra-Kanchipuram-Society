@@ -1,1 +1,1 @@
-Upload this folder contents to GitHub Pages.
+Official website for Nakshatra Kanchipuram Society
