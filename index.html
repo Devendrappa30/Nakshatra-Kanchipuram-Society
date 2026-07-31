@@ -986,7 +986,29 @@ box-shadow:0 15px 35px rgba(0,0,0,.25);
  "description":"Buyer of old Kanchipuram, Mysore, Banarasi and Pure Zari Silk Sarees.",
  "address":{"@type":"PostalAddress","addressCountry":"IN"}
 }
-</script></head>
+</script><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C96504DZ9"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18339736946"></script>
+<script>
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config','G-C96504DZ9');
+gtag('config','AW-18339736946');
+function trackContactConversion(){
+  gtag('event','conversion',{'send_to':'AW-18339736946/n8zKCMyE7NYcEPLaiKlE'});
+}
+document.addEventListener('click',function(e){
+ const a=e.target.closest('a');
+ if(!a) return;
+ const href=(a.getAttribute('href')||'').toLowerCase();
+ if(href.indexOf('tel:')===0||href.indexOf('wa.me')>-1||href.indexOf('api.whatsapp.com')>-1){
+   trackContactConversion();
+ }
+});
+</script>
+
+</head>
 <body>
 <!-- ============ HEADER ============ -->
 <header class="site-header" id="siteHeader">
